@@ -1,5 +1,5 @@
 Package: montyhall
-Title: Monty Hall Game
+Title: Monty Hall Problem
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Asia",
@@ -7,7 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "aawoods@asu.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package runs the Monty Hall Game. The goal of the game is to pick the one door with the car behind it instead of the two with the goats.
+Description: A virtual game based on the Monty Hall Problem will be played. The contestant is asked to pick one of three doors. Behind two of the doors are goats and behind the third is a car, the contestants potential prize. Upon choosing a door, one of the remaining two doors with a goat behind it will be opened by the host. The contestant has the option to keep their initial door pick or switch to the other closed door. After selecting the final door, the host will reveal if the contestant won the car or lost by choosing a door with a goat behind it.
+Depends:
+	dplyr
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
