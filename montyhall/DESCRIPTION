@@ -1,0 +1,16 @@
+Package: montyhall
+Title: Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Asia",
+           family = "Woods",
+           role = c("aut", "cre"),
+           email = "aawoods@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package runs the Monty Hall Game. The goal of the game is to pick the one door with the car behind it instead of the two with the goats.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
